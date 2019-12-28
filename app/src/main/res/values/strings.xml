@@ -1,8 +1,8 @@
 <resources>
-    <string name="app_name">OrganizeU-Android</string>
+    <string name="app_name">MusicApp-Android</string>
     <string name="logo">Logo</string>
     <string name="user_id">user_id</string>
-    <string name="shared_pref">OrganizeU</string>
+    <string name="shared_pref">MusicApp</string>
     <string name="is_logged">isLogged</string>
     <string name="title">Title</string>
     <string name="discard">Discard</string>

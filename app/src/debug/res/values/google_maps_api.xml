@@ -4,12 +4,12 @@
 
     To get one, follow this link, follow the directions and press "Create" at the end:
 
-    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=81:51:44:78:FA:17:00:5E:F6:A1:B6:79:6A:7B:0D:16:0D:C4:65:B9%3Bpl.holker.oraganizeu_android
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=81:51:44:78:FA:17:00:5E:F6:A1:B6:79:6A:7B:0D:16:0D:C4:65:B9%3Bpl.holker.music_app_android
 
     You can also add your credentials to an existing key, using these values:
 
     Package name:
-    pl.holker.oraganizeu_android
+    pl.holker.music_app_android
 
     SHA-1 certificate fingerprint:
     81:51:44:78:FA:17:00:5E:F6:A1:B6:79:6A:7B:0D:16:0D:C4:65:B9

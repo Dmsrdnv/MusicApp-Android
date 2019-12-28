@@ -6,7 +6,7 @@
 
         <variable
             name="viewModel"
-            type="pl.holker.organizeu_android.functionalities.typical_notes.TypicalNotesVM" />
+            type="pl.holker.music_app_android.functionalities.typical_notes.TypicalNotesVM" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout

@@ -5,7 +5,7 @@
 
         <variable
             name="viewModel"
-            type="pl.holker.organizeu_android.functionalities.location_notes.LocationNotesVM" />
+            type="pl.holker.music_app_android.functionalities.location_notes.LocationNotesVM" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout

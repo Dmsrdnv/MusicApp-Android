@@ -6,7 +6,7 @@
 
         <variable
             name="viewModel"
-            type="pl.holker.organizeu_android.functionalities.start.StartActivityVM" />
+            type="pl.holker.music_app_android.functionalities.start.StartActivityVM" />
     </data>
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout

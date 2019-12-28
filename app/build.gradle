@@ -7,9 +7,9 @@ apply plugin: 'kotlin-android-extensions'
 apply plugin: 'kotlin-kapt'
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
     defaultConfig {
-        applicationId "pl.holker.oraganizeu_android"
+        applicationId "pl.holker.music_app_android"
         minSdkVersion 15
         targetSdkVersion 28
         versionCode 1

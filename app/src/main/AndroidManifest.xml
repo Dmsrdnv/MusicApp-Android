@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="pl.holker.organizeu_android">
+    package="pl.holker.music_app_android">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -12,7 +12,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:name=".OrganizeU"
+        android:name="pl.holker.music_app_android.musicApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -32,10 +32,10 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-        <activity android:name=".functionalities.start.StartActivity" />
-        <activity android:name=".functionalities.login.LoginActivity" />
+        <activity android:name="pl.holker.music_app_android.functionalities.start.StartActivity" />
+        <activity android:name="pl.holker.music_app_android.functionalities.login.LoginActivity" />
         <activity
-            android:name=".functionalities.main.MainActivity"
+            android:name="pl.holker.music_app_android.functionalities.main.MainActivity"
             android:theme="@style/AppTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
