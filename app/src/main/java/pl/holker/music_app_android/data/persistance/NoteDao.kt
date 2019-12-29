@@ -9,7 +9,7 @@ interface NoteDao {
     @Query("SELECT * FROM notes")
     fun getAllNotes(): Flowable<List<Note>>
 
-    @Query("SELECT * FROM location_notes")
+    @Query("SELECT * FROM location_letters")
     fun getLocationNotes(): Flowable<List<NoteLocation>>
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
@@ -24,10 +24,10 @@ interface NoteDao {
     @Query("DELETE FROM notes WHERE note_id = :noteId")
     fun deleteNoteById(noteId: Int): Completable
 
-    @Query("DELETE FROM location_notes")
+    @Query("DELETE FROM location_letters")
     fun deleteAllLocationNotes()
 
-    @Query("DELETE FROM location_notes WHERE note_location_id = :noteId")
+    @Query("DELETE FROM location_letters WHERE letter_location_id = :noteId")
     fun deleteLocationNoteById(noteId: Int)
 
     @Update

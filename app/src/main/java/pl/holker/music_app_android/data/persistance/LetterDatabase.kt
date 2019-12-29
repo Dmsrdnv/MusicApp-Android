@@ -18,7 +18,7 @@ abstract class LetterDatabase : RoomDatabase() {
         }
 
         private fun buildDatabase(context: Context) = Room.databaseBuilder(
-            context.applicationContext, LetterDatabase::class.java, "test1"
+            context.applicationContext, LetterDatabase::class.java, "test3"
         ).build()
     }
 }
