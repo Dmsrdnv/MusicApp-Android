@@ -16,6 +16,8 @@ import pl.holker.music_app_android.di.Injectable
 import pl.holker.music_app_android.di.ViewModelInjectionFactory
 import pl.holker.music_app_android.functionalities.location_notes.LocationNotesFragment
 import pl.holker.music_app_android.functionalities.typical_notes.TypicalNotesFragment
+import pl.holker.music_app_android.functionalities.location_letters.LocationLettersFragment
+import pl.holker.music_app_android.functionalities.letters.LettersFragment
 import javax.inject.Inject
 
 class StartActivity : AppCompatActivity(), Injectable, HasSupportFragmentInjector {
@@ -34,7 +36,7 @@ class StartActivity : AppCompatActivity(), Injectable, HasSupportFragmentInjecto
 
     private lateinit var mSelectionsPagerAdapter: SelectionsFragmentAdapter
     val tabIcons = arrayListOf<Int>(
-            R.drawable.ic_notes, R.drawable.ic_map_48
+            R.drawable.ic_notes, R.drawable.ic_letters, R.drawable.ic_map_48
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -56,6 +58,8 @@ class StartActivity : AppCompatActivity(), Injectable, HasSupportFragmentInjecto
         val fragmentAdapter = mSelectionsPagerAdapter
         fragmentAdapter.addFragment("Notes", TypicalNotesFragment())
         fragmentAdapter.addFragment("Locations", LocationNotesFragment())
+        fragmentAdapter.addFragment("Letters", LettersFragment())
+        fragmentAdapter.addFragment("Location Letters", LocationLettersFragment())
         start_vp_container.adapter = mSelectionsPagerAdapter
     }
 

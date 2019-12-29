@@ -5,7 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity(tableName = "location_letters")
-data class NoteLocation(
+data class LetterLocation(
     @PrimaryKey(autoGenerate = true) @ColumnInfo(name = "letter_location_id") val id: Int = 0,
     @ColumnInfo(name = "title") val title: String,
     @ColumnInfo(name = "content") val content: String,

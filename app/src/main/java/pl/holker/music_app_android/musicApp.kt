@@ -7,6 +7,12 @@ import android.content.Context
 import dagger.android.*
 import pl.holker.music_app_android.di.AppInjector
 import pl.holker.music_app_android.di.components.AppComponent
+// http
+//import pl.holker.music_app_android.data.model.Person
+//import pl.holker.music_app_android.data.model.ResponseMany
+//import pl.holker.music_app_android.data.model.ResponseOne
+//import pl.holker.music_app_android.data.repo.GendXApiService
+//
 import javax.inject.Inject
 
 open class musicApp : Application(), HasActivityInjector, HasServiceInjector {
